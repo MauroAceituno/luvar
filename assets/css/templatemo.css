@@ -137,7 +137,7 @@ a:hover{
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
-.services-icon-wap:hover {background: black;}
+.services-icon-wap:hover { background: black; cursor: pointer; transform:scale(1.03)  ; -webkit-transform:scale(1.03)  ; -moz-transform:scale(1.03)  ; -ms-transform:scale(1.03)  ; -o-transform:scale(1.03)  ; }
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
